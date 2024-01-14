@@ -14,4 +14,4 @@ For more advanced options it's recommended to use .spec file, attached an exampl
 ```
 pyinstaller your_app_name.spec
 ```
-You can also refer to this [blog post](http://3.120.248.248/?page_id=287) for more details.
+You can also refer to this [blog post](http://3.120.248.248/?page_id=295) for more details.
