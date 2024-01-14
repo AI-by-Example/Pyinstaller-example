@@ -4,9 +4,9 @@ block_cipher = None
 
 
 a = Analysis(['Sheeba_main.py'],
-             pathex=['C:\\Users\\danan\\Git\\Spring_Vision_App\\Spring_Vision_App', 'C:\\Users\\danan\\AppData\\Local\\Programs\\Python\\Python36\\Lib\\site-packages\\SimpleITK-1.2.0rc2.dev1167+gd4cf2-py3.6-win-amd64.egg\\SimpleITK'],
+             pathex=['C:\\Users\\danan\\Git\\', 'C:\\Users\\danan\\AppData\\Local\\Programs\\Python\\Python36\\Lib\\site-packages\\SimpleITK-1.2.0rc2.dev1167+gd4cf2-py3.6-win-amd64.egg\\SimpleITK'],
              binaries=[],
-             datas=[('spring_logo.ico', '.'), ('SimpleITK/SimpleITK.py', '.'), ('SimpleITK/_SimpleITK.py', '.'), ('SimpleITK/__init__.py', '.')],
+             datas=[('logo.ico', '.'), ('SimpleITK/SimpleITK.py', '.'), ('SimpleITK/_SimpleITK.py', '.'), ('SimpleITK/__init__.py', '.')],
              hiddenimports=["pywt","pywt._extensions._cwt",'SimpleITK._SimpleITK','SimpleITK', 'SimpleITK.SimpleITK'],
              hookspath=[],
              runtime_hooks=[],
@@ -29,4 +29,4 @@ exe = EXE(pyz,
           strip=False,
           upx=True,
           runtime_tmpdir=None,
-          console=False , icon='spring_logo.ico')
+          console=False , icon='logo.ico')
