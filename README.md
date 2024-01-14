@@ -6,4 +6,7 @@ Plase make sure you have pyinstaller installed.
 ```
 pip install pyinstaller
 ```
-
+To create a one file executable run the following command:
+```
+pyinstaller --onefile tkinter_sample_app.py  
+```
